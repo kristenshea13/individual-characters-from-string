@@ -12,11 +12,12 @@ namespace individual_characters_from_string
 
             foreach (char c in quote)
             {
-                Console.WriteLine(c);
+                Console.WriteLine(c.ToString().ToUpper());
             }
+            Console.WriteLine();
+            int quoteLength = quote.Length;
 
-
-
+            Console.WriteLine("The lenght of the quote is: {0} characters", quoteLength);
 
             Console.ReadLine();
         }
